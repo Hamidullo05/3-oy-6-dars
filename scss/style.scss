@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container {
+    max-width: 1918px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 382px;
+    padding-right: 375px;
+}
+.majon__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h3 {
+        font-size: 45px;
+        font-weight: 500;
+        color: #363739;
+        margin-bottom: ;
+        span {
+            font-size: 45px;
+            font-weight: 500;
+            color: #3EA83B;
+
+        }
+    }
+    h1 {
+        font-size: 112px;
+        font-weight: 700;
+        color: #3EA83B;
+    }
+}
+
+.about__container {
+    margin-top: 135px;
+    margin-bottom: 96px;
+
+}
+.about-info1 {
+    display: flex;
+    gap: 300px;
+    align-items: center;
+    margin-bottom: 109px;
+    .saw {
+        font-size: 19px;
+        font-weight: 700;
+        color: #3EA83B;
+        margin-bottom: 28px;
+    }
+    .the {
+        font-size: 46px;
+        font-weight: 700;
+        color: 
+        #363739;
+        margin-bottom: 37px;
+
+    }
+    .product-text {
+        font-size: 16px;
+        font-weight: 400;
+        color: 
+        #363739;
+        margin-bottom: 30px;
+    }
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    .user--info {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+
+    }
+}
+.user-text {
+    width: 351px;
+    h3 {
+        font-size: 21px;
+        font-weight: 700;
+        color: #363739;
+        margin-bottom: 17px;
+    }
+    p {
+        font-size: 16px;
+        font-weight: 400;
+        color: 
+        #363739;
+    }
+}
+.casing__container {
+    background-color: #5506fe;
+    padding-top: 116px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 108px;
+    
+}
+.casing-info {
+    h5 {
+        font-size: 19px;
+        font-weight: 700;
+        color: #000;
+        margin-bottom: 12px;
+    }
+    h1 {
+        font-size: 46px;
+        font-weight: 700;
+        color: #FFF;
+        margin-bottom: 30px;
+    }
+    p {
+        font-size: 18px;
+        font-weight: 400;
+        color: #FFF;
+        margin-bottom: 64px;
+
+    }
+}
+.cas {
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    
+    h5 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #FFF;
+        line-height: 45px;
+    }
+}
+@import './header'
